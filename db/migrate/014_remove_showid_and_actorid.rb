@@ -1,4 +1,4 @@
-class CreateCharacterChange < ActiveRecord::Migration[4.2]
+class RemoveShowidAndActorid < ActiveRecord::Migration[4.2]
   def change
 
       remove_column :characters, :show_id
