@@ -4,4 +4,4 @@ class RemoveShowidAndActorid < ActiveRecord::Migration[4.2]
       remove_column :characters, :show_id
       remove_column :characters, :actor_id
   end
-end 
+end
